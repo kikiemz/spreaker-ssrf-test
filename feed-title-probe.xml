@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Title Filter Probe</title>
+<description>Security research feed</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<item>
+<title>T1 quote breakout "><b>bold</b></title>
+<description>d1</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/t1</guid>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>T2 javascript uri</title>
+<description>d2</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/t2</guid>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>T3 svg tag</title>
+<description>d3</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/t3</guid>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>T4 plain amp test &amp; done</title>
+<description>d4</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/t4</guid>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>T5 unicode fullwidth ＜img src=x onerror=alert(1)＞</title>
+<description>d5</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/t5</guid>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
